@@ -29,3 +29,9 @@ const Box = styled.div`
     color: var(--color-grey-500);
   }
 `;
+
+function ErrorFallback() {
+  return <div></div>;
+}
+
+export default ErrorFallback;
